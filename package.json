@@ -1,0 +1,19 @@
+{
+  "name": "drive",
+  "version": "1.0.0",
+  "description": "【NCKU Hub專案-雲端硬碟】\r 後端：\r [Week1]\r Experss.js + Ngrok\r 1. 檔案CRUD:\r post localhost:3000/file/upload 新增檔案\r get localhost:3000/file/list 讀取檔案目錄\r get localhost:3000/file/download 下載檔案\r get localhost:3000/file/delete 刪除檔案\r 2. 使用Ngrok架設:\r 終端機輸入 ngrok http 3000 啟動服務，讓別人可以",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  }
+}
